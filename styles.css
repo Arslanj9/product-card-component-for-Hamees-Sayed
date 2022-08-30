@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #3C8067;
+}
+
+.card {
+    /* margin-top: 210px; */
+    /* margin-bottom: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C7289;
+}
+
+.info {
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    box-sizing: border-box;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.prf-img {
+    height: 319.5px;
+    width: 350px;
+    height: 525px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: thin;
+    font-size: 16px;
+    color: #6C7289;
+}
+
+.header {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: #1C232B;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    height: 96px;
+    width: 270px;
+    font-size: 16px;
+    color: #6C7289;
+    margin: 0px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.cost {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    margin-right: 30px;
+    color: #3C8067
+}
+
+.discount {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #3C8067
+}
+
+.button {
+    display: flex;
+    background: #3C8067;
+    padding: 16px 64px;
+    width: 245.72;
+    height: 52.39px;
+    border-radius: 15px;
+    align-items: center;
+    width: 130px;
+    height: 20.391px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(158deg, 36%, 16%);
+}
+
+.btn {
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+}
