@@ -11,7 +11,6 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-color: #3C8067;
 }
 
 .card {
@@ -20,7 +19,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6C7289;
 }
 
 .info {
